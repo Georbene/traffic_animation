@@ -1,0 +1,306 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.traffic {
+  height: fit-content;
+}
+.bird{
+    position: absolute;
+    top: 0px;
+animation: bird 20s infinite;
+transform: translate();
+}
+@keyframes bird{
+    0%{
+transform: translate(-100px);
+    }
+    50%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(1300px);
+    }
+}
+.birdtwo{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+animation: birdtwo 7s infinite;
+transform: translatex();
+}
+@keyframes birdtwo{
+    0%{
+        transform: translatex(0px);
+    }
+    50%{
+        transform: translatex();
+    }
+    100%{
+        transform: translate(-1500px);
+    }
+}
+.mainhouse {
+  position: absolute;
+  top: 0px;
+}
+.grass {
+  position: absolute;
+  top: 180px;
+}
+.trafficlight {
+  position: absolute;
+  top: 280px;
+}
+.trafficlightwo {
+  position: absolute;
+  top: 280px;
+  right: 0px;
+}
+.airplane{
+position: absolute;
+top: 0px;
+animation: airplane 5s infinite;
+transform: translatex();
+}
+@keyframes airplane{
+   0%{
+        transform: translatex(1500px);
+    }
+    50%{
+        transform: translatex();
+    }
+    100%{
+        transform: translate(-1500px);
+}    
+}
+
+.helicop{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+animation: helicop 10s infinite;
+transform: translatex();
+}
+@keyframes helicop{ 
+    0%{
+        transform: translatex(500px);
+    }
+    50%{
+        transform: translatex();
+    }
+    100%{
+        transform: translate(-1500px);
+}
+}
+.boy{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+animation: boy 15s infinite;
+transform: translate();
+}
+@keyframes boy{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(0px, -150px);
+    }
+    100%{
+        transform: translate();
+    }
+}
+.selfan{
+    position: absolute;
+    top: 210px;
+animation: selfan 10s infinite;
+transform: translatex();
+}
+@keyframes selfan{
+    0%{
+        transform: translatex(-1000px);
+    }
+    50%{
+        transform: translatex(0px);
+    }
+    100%{
+        transform: translatex(1000px);
+    }
+}
+.man{
+    position: absolute;
+    top: 180px;
+    right: 0px;
+animation: man 15s infinite;
+transform: translatex();
+}
+@keyframes man{
+      0%{
+        transform: translatex(1000px);
+    }
+    50%{
+        transform: translatex();
+    }
+    100%{
+        transform: translate(-1400px);
+}    
+}
+.teach{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+animation: teach 15s infinite;
+transform: translatex();
+}
+@keyframes teach{
+      0%{
+        transform: translatex(1000px);
+    }
+    50%{
+        transform: translatex();
+    }
+    100%{
+        transform: translate(-1400px);
+}    
+}
+.sportcar{
+    position: absolute;
+    top: 480px;
+animation: sportcar 3s infinite;
+transform: translatex();
+}
+@keyframes sportcar{
+      0%{
+        transform: translatex(-800px);
+    }
+    50%{
+        transform: translatex();
+    }
+    100%{
+        transform: translate(1400px);
+}    
+}
+.bike{
+    position: absolute;
+    top: 550px;
+animation: bike 8s infinite;
+transform: translatex(); 
+}
+@keyframes bike{
+      0%{
+        transform: translatex(-400px);
+    }
+    50%{
+        transform: translatex();
+    }
+    100%{
+        transform: translate(1400px);
+}    
+}
+.cartwo{
+     position: absolute;
+    top: 500px;
+    left: 50px;
+    animation: cartwo 15s infinite;
+    transform: translatex();
+}
+@keyframes cartwo{
+      0%{
+        transform: translatex(-400px);
+    }
+    50%{
+        transform: translatex();
+    }
+    100%{
+        transform: translate(1400px);
+}
+}    
+.truck{
+    position: absolute;
+    top: 300px;
+    right: 20px; 
+    animation: truck 20s infinite;
+    transform: translate();
+}
+@keyframes truck{
+    0%{
+        transform: translate(200px);
+    }
+    50%{
+        transform: translate();
+    }
+    100%{
+        transform: translate(-2000px);
+    }
+}
+.trucktwo{
+      position: absolute;
+    top: 300px;
+    right: 50px; 
+animation: trucktwo 25s infinite;
+transform: translatex();
+}
+@keyframes trucktwo{
+    from{
+transform: translate(0px);
+}
+to{
+    transform: translate(-1300px);
+}
+}
+.bicycle{
+      position: absolute;
+    top: 300px;
+    right: 100px; 
+animation: bicycle 15s infinite;
+transform: translate();
+}
+@keyframes bicycle{
+    0%{
+        transform: translate(200px);
+    }
+    50%{
+        transform: translate();
+    }
+    100%{
+        transform: translate(-2000px);
+    }
+}
+.bicycletwo{
+  position: absolute;
+    top: 300px;
+    right: 300px; 
+    animation: bicycletwo 17s infinite;
+    transform: translate();
+}
+@keyframes bicycletwo{
+    0%{
+        transform: translate(200px);
+    }
+    50%{
+        transform: translate();
+    }
+    100%{
+        transform: translate(-2000px);
+    }
+}
+.car{
+  position: absolute;
+    top: 300px;
+    right: 200px; 
+animation: car 10s infinite;
+transform: translate();
+}
+@keyframes car{
+    0%{
+        transform: translate(200px);
+    }
+    50%{
+        transform: translate();
+    }
+    100%{
+        transform: translate(-2000px);
+    }
+}
